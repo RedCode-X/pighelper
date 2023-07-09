@@ -9,7 +9,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f67b513-2279-4196-b21e-d67614591726" name="Default Changelist" comment="" />
+    <list default="true" id="7f67b513-2279-4196-b21e-d67614591726" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/beans.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -542,7 +546,7 @@
       <workItem from="1541498480942" duration="22000" />
       <workItem from="1553672905629" duration="1411000" />
       <workItem from="1688664018567" duration="14249000" />
-      <workItem from="1688920552148" duration="548000" />
+      <workItem from="1688920552148" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="基于Hybrid+SSM的养猪信息化管理平台，该平台实现了对每日新闻，猪价的爬虫获取，还要养殖过程中各类开支账单的增删改">
       <created>1541496834697</created>
@@ -558,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541497051710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Default Changelist">
+      <created>1688921342545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688921342545</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -608,13 +619,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="基于Hybrid+SSM的养猪信息化管理平台，该平台实现了对每日新闻，猪价的爬虫获取，还要养殖过程中各类开支账单的增删改" />
     <MESSAGE value="基于Hybrid+SSM的养猪信息化管理平台，该平台实现了对每日新闻，猪价的爬虫获取，还有养殖过程中各类开支账单的增删改" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于Hybrid+SSM的养猪信息化管理平台，该平台实现了对每日新闻，猪价的爬虫获取，还有养殖过程中各类开支账单的增删改" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/y1ang/service/impl/ICountServiceImpl.java">
