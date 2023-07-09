@@ -9,7 +9,11 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -245,5 +249,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 9.0.12" level="application_server_libraries" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>

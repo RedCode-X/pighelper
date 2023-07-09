@@ -1,5 +1,8 @@
 package com.y1ang.util;
 
+import com.y1ang.entity.PriceJson;
+import com.y1ang.entity.Prices;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,9 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import com.y1ang.entity.PriceJson;
-import com.y1ang.entity.Prices;
 
 /**
  * 
@@ -33,6 +33,7 @@ public class GetPricesUtil {
      * @return
      */
     public static PriceJson getPrices(String u) {
+        System.out.println(u);
         InputStream in = null;
         InputStreamReader isr = null;
         BufferedReader br = null;
@@ -53,7 +54,9 @@ public class GetPricesUtil {
                 dest = m.replaceAll("");
                 sb.append(dest);
             }
-            String reg = "<td>.*?</td>";
+
+
+            String reg = "<td.*?>.*?</td>";
             Matcher matcher = Pattern.compile(reg).matcher(sb.toString());
             List<String> list = new ArrayList<>();
             while (matcher.find()) {
@@ -95,6 +98,8 @@ public class GetPricesUtil {
                 Prices p = new Prices(city.get(i), price.get(i), range.get(i));
                 priceList.add(p);
             }
+
+
             // 赋值到json中
             res.setData(priceList);
         } catch (Exception e) {
@@ -123,5 +128,11 @@ public class GetPricesUtil {
             }
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        String u = "https://zhujia.zhuwang.cc/areapriceinfo-430000.shtml";
+        String price  = String.valueOf(GetPricesUtil.getPrices(u));
+        System.out.println(price);
     }
 }
